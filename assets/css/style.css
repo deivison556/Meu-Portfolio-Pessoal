@@ -61,3 +61,72 @@ nav #nav-link-email:hover {
   transform: translateY(-10px);
   transition: 1s;
 }
+
+/* Main - conteudo principal */
+#main-conteudo-principal {
+  background-image: url(../imagens/02\ -\ background-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+  width: 1136px;
+  height: 368px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* inserindo background por cima da imagem main */
+#main-conteudo-principal::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+#main-conteudo-principal #main-boxdoconteudo {
+  width: 751px;
+  height: 246px;
+  position: relative;
+  left: 20px;
+  top: 60px; 
+
+}
+
+#main-conteudo-principal #main-boxdoconteudo h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#main-conteudo-principal #main-boxdoconteudo p {
+  color: white;
+  font-size: 18px;
+}
+
+#main-conteudo-principal #main-linkssociais {
+  width: 467px;
+  height: 24px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#main-conteudo-principal #main-linkssociais li a {
+  display: block;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid var(--CordeHover);
+  transition: 0.5s ease-in-out;
+}
+
+#main-conteudo-principal #main-linkssociais li a:hover {
+  transform: translateY(-5px);
+  transition: 0.5s ease-in-out;
+}
