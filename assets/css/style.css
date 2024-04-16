@@ -91,7 +91,6 @@ nav #nav-link-email:hover {
   position: relative;
   left: 20px;
   top: 60px; 
-
 }
 
 #main-conteudo-principal #main-boxdoconteudo h1 {
@@ -129,4 +128,31 @@ nav #nav-link-email:hover {
 #main-conteudo-principal #main-linkssociais li a:hover {
   transform: translateY(-5px);
   transition: 0.5s ease-in-out;
+}
+
+/* Section - sobre mim */
+#container-sobremim {
+  width: 100%;
+  height: 383px;
+  margin-top: 5px;
+  padding-top: 30px;
+  background-color: rgba(84, 114, 248, 0.8);
+}
+
+#container-sobremim h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#container-sobremim #container-conteudosobremim {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1136px;
+  height: 300px;
+}
+
+#container-sobremim #container-conteudosobremim p {
+  color: white;
+  font-size: 16px;
+
 }
