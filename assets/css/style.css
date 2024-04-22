@@ -136,7 +136,7 @@ nav #nav-link-email:hover {
   height: 383px;
   margin-top: 5px;
   padding-top: 30px;
-  background-color: rgba(84, 114, 248, 0.8);
+  background-color: var(--CordeHover);
 }
 
 #container-sobremim h3 {
@@ -174,7 +174,7 @@ nav #nav-link-email:hover {
   margin: 0px auto;
 }
 
-#container-skills .titulo-skills{
+.titulo-skills{
   text-align: center;
   font-size: 35px;
   color: #000000;
