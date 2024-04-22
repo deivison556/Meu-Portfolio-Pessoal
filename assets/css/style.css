@@ -207,3 +207,49 @@ nav #nav-link-email:hover {
   text-align: center;
   padding-top: 5px;
 }
+
+/* Sessão formação academica */
+#container-formacao {
+  width: 100%;
+  height: 450px;
+  padding-top: 40px;
+  background-color: var(--CordeHover);
+}
+
+#container-formacao #container-sobre-formacao {
+  margin: 0px auto;
+  width: 1136px;
+  height: 320px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-formacao .box-imagem-formacao {
+  border: 1px solid var(--CordeHover);
+  margin: 0 auto;
+  padding: 10px;
+  width: 300px;
+  height: 250px;
+  border-radius: 6px;
+  background-color: #F5F5F5;
+}
+
+#container-formacao .box-imagem-formacao .box-descricaoFormacao {
+  width: 250px;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container-formacao .box-imagem-formacao .box-descricaoFormacao img {
+  width: 100%;
+  height: 130px;
+}
+
+#container-formacao .box-imagem-formacao .box-descricaoFormacao p {
+  font-size: 16px;
+  text-align: left;
+  color: var(--CorTercearia);
+}
