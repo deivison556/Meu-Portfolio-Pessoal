@@ -160,7 +160,7 @@ nav #nav-link-email:hover {
 /* Sessão de HardSkills e Hobbies */
 #container-skills {
   width: 1440px;
-  height: 1245px;
+  height: 650px;
   margin: 0px auto;
   padding-top: 40px;
 }
@@ -185,7 +185,6 @@ nav #nav-link-email:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 #container-skills .box-Imagens-e-paragrafo {
@@ -208,7 +207,3 @@ nav #nav-link-email:hover {
   text-align: center;
   padding-top: 5px;
 }
-
-
-
-
