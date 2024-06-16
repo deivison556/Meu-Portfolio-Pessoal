@@ -319,3 +319,15 @@ nav #nav-link-email:hover {
 #section-projetos #btn-projeto:hover {
   border: 1px solid #000000;
 }
+
+/* Rodapé */
+footer {
+  background-color: black;
+  height: 80px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
