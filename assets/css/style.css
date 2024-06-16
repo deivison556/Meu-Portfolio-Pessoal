@@ -253,3 +253,69 @@ nav #nav-link-email:hover {
   text-align: left;
   color: var(--CorTercearia);
 }
+
+/* Sessão de projetos */
+#section-projetos {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+#section-projetos h2 {
+  color: #000000;
+  font-size: 40px;
+}
+
+#section-projetos p {
+  color: #1e96fc;
+  font-size: 16px;
+}
+
+.section-box-projetos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 1300px;
+  height: 300px;
+}
+
+.section-box-projetos img {
+  width: 400px;
+  height: 280px;
+  margin: 0 5px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.section-box-projetos img:hover {
+  box-shadow: 1px 1px 10px #000000;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#section-projetos a {
+  text-align: none;
+  color: #000000;
+}
+
+#section-projetos #btn-projeto {
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+#section-projetos #btn-projeto:hover {
+  border: 1px solid #000000;
+}
